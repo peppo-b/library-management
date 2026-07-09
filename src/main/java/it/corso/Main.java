@@ -11,6 +11,8 @@ public class Main {
 
         libreria.listBooks();
 
+        Book b = libreria.findBook(1);
+        System.out.println(b.toString());
 
     }
 }
